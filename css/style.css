@@ -1,23 +1,66 @@
 /* Layout */
 
 body {
-    font:normal 12px/1.6em Arial, Helvetica, sans-serif;
+/*    font:normal 12px/1.6em Arial, Helvetica, sans-serif;
 	background: rgba(53, 103, 128, 0.96);
-	background: url("../BackgroundPicture/ako.png");
-	opacity: .50;
-	/*background-size: 100%;*/
+	background-image: url("../BackgroundPicture/ako.png");
   	background-size: 100% 760px;
-  	background-repeat: no-repeat;
+	opacity: .50;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;	*/
+	margin: 0px;
 }
 
+
 #wrapper {
-	background: url("../BackgroundPicture/ako.png");
-	opacity: .5;
-	background-size: cover;
+	background-image: url("../BackgroundPicture/ako.png");
+  	background-size: cover;
+  	background-position: center center;
+  	position: relative;
+  	top: 0;
+  	bottom: 0;
+  	height: 100vh;
+  	z-index: -10;
+  	/*filter: blur(1px);*/
+
+	/*opacity: 0.70;*/
+  	/*background-size: 100% 760px;*/
+	/*background-size: cover;*/
+	/*background: rgba(53, 103, 128, 0.96);*/
+
 	/*width: 95%;*/
 	/*box-sizing: border-box;*/
 }
 
-#bg{
-	background-size: cover;
+#background {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	z-index: -5;
+	height: 100%;
+	width: 100%;
+	background: rgba(53, 103, 128, 0.96);
+	opacity: .90;
+}
+
+#header {
+	/*filter: blur(0px);*/
+/*	background-color: green;
+	width: 100px;
+	height: 100px;*/
+	font-style: 
+}
+
+#main-content {
+/*	background-color: yellow;
+	width: 100px;
+	height: 100px;*/
+	/*display: block;*/
+
+}
+#footer	{
+	/*visibility: none;*/
+	/*background-color: red;*/
 }
