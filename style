@@ -1,0 +1,113 @@
+/* Component */
+opacity: 1.00;
+
+/* Rectangle */
+background: rgba(53, 103, 128, 0.96);
+opacity: 1.00;
+border: 1px solid #000000;
+box-sizing: border-box;
+
+/* ako */
+background: url(ako.png);
+mix-blend-mode: overlay;
+opacity: 1.00;
+
+/* logo */
+background: url(logo.png);
+opacity: 1.00;
+
+/* Rectangle 4 */
+background: #134F6E;
+opacity: 1.00;
+border: 1px solid #F2F2F2;
+box-sizing: border-box;
+
+/* @carljunepiao */
+font-family: "Jura";
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 100%;
+color: #F2F2F2;
+opacity: 1.00;
+
+/* WIN_20170220_024640 */
+background: url(10471019_1052389368108712_317697242947712107_n.png);
+opacity: 1.00;
+
+/* Carl Piao */
+font-family: "Prociono";
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 100%;
+color: #F2F2F2;
+mix-blend-mode: normal;
+opacity: 1.00;
+
+/* Copyright © 2017 Charlito Piao. All rights reserved. */
+font-family: "Habibi";
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 100%;
+color: #F2F2F2;
+opacity: 1.00;
+
+/* DEVELOPER */
+font-family: "Coda";
+font-style: normal;
+font-weight: normal;
+font-size: 66px;
+line-height: 100%;
+color: #F2F2F2;
+opacity: 1.00;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+/* Home */
+font-family: "Jura";
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 100%;
+color: #F2F2F2;
+opacity: 1.00;
+
+/* About */
+font-family: "Jura";
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 100%;
+color: #F2F2F2;
+opacity: 1.00;
+
+/* Resume */
+font-family: "Jura";
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 100%;
+color: #F2F2F2;
+opacity: 1.00;
+
+/* Contact */
+font-family: "Jura";
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 100%;
+color: #F2F2F2;
+opacity: 1.00;
+
+/* fb 2 */
+background: url(fb.png);
+opacity: 1.00;
+
+/* github */
+background: url(github.png);
+opacity: 1.00;
+
+/* twitter */
+background: url(twitter.png);
+opacity: 1.00;
