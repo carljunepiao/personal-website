@@ -142,7 +142,7 @@ body {
  		padding: 10px;
 		align-items: center;
 		align-content: center;
-		
+
 		font-family: "Coda";
 		font-style: normal;
 		font-weight: normal;
@@ -151,4 +151,14 @@ body {
 		color: #F2F2F2;
 		opacity: 1.00;
 		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.55);
+	}
+
+	.main > .resume > img {
+		
+	}
+
+	a {
+		text-decoration: none;
+		/*text-decoration-style: */
+		color: white;
 	}
