@@ -7,7 +7,7 @@ html {
 body {
 	margin: 0;
 	padding: 0;
-	background: url('../BackgroundPicture/wow.jpg');
+	background: url('wow.jpg');
 	/*background-color: rgba(0,0,255,0.3);*/
 	background-size: cover;
 }
@@ -29,6 +29,8 @@ body {
 	.navigation > ul {
 		display: flex;
 		align-items: center;
+		margin-top: 0px;
+		margin-bottom: 0px;
 		justify-content: center;
 	}
 	.navigation > ul > li {
@@ -50,7 +52,7 @@ body {
 		opacity: 1.00;
 	}
 
-	.navigation > ul > li:hover {
+	.navigation > ul > li#navb:hover {
 	    background-color:rgba(3, 8, 66, 1);
 	    color:#030842;
 	    cursor:pointer;
@@ -58,7 +60,7 @@ body {
 	    transition: background-color 1000ms, color 1000ms;
 	}
 
-	.navigation > ul > img {
+	.navigation > ul > a > img {
 		width: 70px;
 		height: 70px;
 		margin: 10px;

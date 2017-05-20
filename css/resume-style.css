@@ -1,0 +1,182 @@
+html {
+    margin: 0;
+    padding: 0;
+    /*overflow-y: hidden; */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('wow.jpg');
+    /*background-color: rgba(0,0,255,0.3);*/
+    background-size: cover;
+}
+
+.container {
+    margin: 0;
+    padding: 0px 0;
+    background-color: rgba(0,0,255,0.1);
+    color: white;
+    height: 100vh;
+}
+
+.navigation {
+    margin: 0;
+    padding: 0;
+    /*background-color: rgba(100,100,255,0.8);*/
+    /*opacity: .5;*/
+}
+    .navigation > ul {
+        display: flex;
+        align-items: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        justify-content: center;
+    }
+    .navigation > ul > li {
+        text-decoration: none !important;
+        flex: 1;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        /*font-size: 20px;*/
+
+        font-family: "Jura";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 100%;
+        color: #030842;
+        opacity: 1.00;
+    }
+
+    .navigation > ul > li#navb:hover {
+        background-color:rgba(3, 8, 66, 1);
+        color:#030842;
+        cursor:pointer;
+        
+        transition: background-color 1000ms, color 1000ms;
+    }
+
+    .navigation > ul > a > img {
+        width: 70px;
+        height: 70px;
+        margin: 10px;
+        opacity: .9;
+        /*border-radius: 50%;*/
+    }
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(100,100,255,0);
+    margin: 10px 0;
+    padding: 10px 0;
+}
+    .main > img {
+        width: 190px;
+        height: 240px;
+        /*border-radius: 50%;*/
+    }
+    .main > h1 {
+        margin: 0;
+        padding: 0;
+
+        font-family: "Prociono";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 100%;
+        color: #F2F2F2;
+        mix-blend-mode: normal;
+        opacity: 1.00;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    } 
+    .main > a > h2 {
+        text-decoration: none !important;
+        margin: 0;
+        padding: 0;
+        
+        font-family: "Jura";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 100%;
+        color: #F2F2F2;
+        opacity: 1.00;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+        
+        .main > a > h2:hover {
+            color:#030842;
+            cursor:pointer;
+            
+            transition: background-color 1000ms, color 1000ms;
+        }
+    .main > .social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+        opacity: 1;
+    }
+        .main > .social > a > img{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin: 0 10px;
+        }
+    .main > h3 {
+        margin: 0;
+        padding: 0;
+
+        font-family: "Coda";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 66px;
+        line-height: 100%;
+        color: #F2F2F2;
+        opacity: 1.00;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .main > footer {
+        margin-top: 70px;
+        font-style: none;
+        font-weight: lighter;
+
+        font-family: "Habibi";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 100%;
+        color: #F2F2F2;
+        opacity: 1.00;
+    }
+    .main > .intro > p{
+        margin: 10px;
+        padding: 10px;
+        align-items: center;
+        align-content: center;
+
+        font-family: "Coda";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 100%;
+        color: #F2F2F2;
+        opacity: 1.00;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.55);
+    }
+
+    .main > .resume > img {
+        
+    }
+
+    a {
+        text-decoration: none;
+        /*text-decoration-style: */
+        color: white;
+    }
