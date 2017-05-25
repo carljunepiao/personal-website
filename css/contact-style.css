@@ -10,7 +10,7 @@ body {
 	background: url('wow.jpg');
 	background-color: rgba(0,0,255,0.3);
 	background-size: cover;
-
+	background-attachment: fixed;
 }
 
 .container {
