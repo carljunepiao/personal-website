@@ -13,7 +13,7 @@
 				<li id = "navb" style="border: 1px solid rgba(255,255,255,0.3);"><a href="home">Home</a></li>
 				<li id = "navb" style="border: 1px solid rgba(255,255,255,0.3);"><a href="about">About</a></li>
 				<li id = "navb" style="border: 1px solid rgba(255,255,255,0.3);"><a href="resume">Resume</a></li>
-				<li id = "navb" style="border: 1px solid rgba(255,255,255,0.3);"><a href="contact">Contact</a></li>
+				<li id = "navb" style="border: 1px solid rgba(255,255,255,0.3);"><a href="contacts">Contact</a></li>
 				<li></li>
 				<li></li>
 				<li></li>
@@ -34,30 +34,41 @@
 			</div>
 			
 			<div class="info">
-				<p>Cell-Phone: +639061960435</p>
-				<p>Tele-Phone: 570-5472</p>
+				<p>Contact me here: </p>
+				<div class="numbers">
+					<p>Cellphone: +639061960435</p>
+					<p>Telephone: 570-5472</p>
+				</div>
 			</div>
+			
 
 			<div class="container2">
-			  	<form action="">
+				<h1>MESSAGE ME</h1>
+				<h2>{{ messages.statusMsg }}</h2>
+			  	<form action="/contacts" method="post">
 
 			    	<label id="labels" for="fname">First Name</label>
-				    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+				    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
 
 				    <label id="labels" for="lname">Last Name</label>
-				    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+				    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
 
 				    <label id="labels" for="country">Country</label>
 				    
-				    <select id="labels" name="country">
+				    <select id="labels" name="country" required>
 				      	<option value="philippines">Philippines</option>
 				      	<option value="australia">Australia</option>
 				      	<option value="canada">Canada</option>
 				      	<option value="usa">USA</option>
+				      	<option value="usa">United Kingdom</option>
+				      	<option value="usa">Brazil</option>
+				      	<option value="usa">France</option>
+				      	<option value="usa">Singapore</option>
+				      	<option value="usa">China</option>
 				    </select>
 
-				    <label id="labels" for="subject">Subject</label>
-				    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+				    <label id="labels" for="subject">Message</label>
+				    <textarea id="subject" name="message" placeholder="Write something.." style="height:200px" required></textarea>
 
 				    <input class="sbutton" type="submit" value="Submit">
 			  	</form>
