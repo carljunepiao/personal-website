@@ -1,9 +1,8 @@
 const Sequelize = require('sequelize');
+const connectionURL = 'postgres://webeng:webeng@localhost:5432/webeng-carlpiao';
 
-const connectionUrl = 'postgres://webeng:webeng@localhost:5432/webeng-carlpiao';
-const database = new Sequelize(connectionUrl);
-
-const Visitor = database.define('visitors', {
+const database = new Sequelize(connectionURL);
+const Visitor = database.define('visitors',{ 
 	id: {
 		type: Sequelize.INTEGER,
 		primaryKey: true,
