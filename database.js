@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize');
 
-const connectionUrl = 'postgres://pgdemo:pgdemo@localhost:5432/pgdemo';
+const connectionUrl = 'postgres://webeng:webeng@localhost:5432/webeng-carlpiao';
 const database = new Sequelize(connectionUrl);
 
 const Visitor = database.define('visitors', {

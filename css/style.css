@@ -56,7 +56,6 @@ body {
 	    background-color:rgba(3, 8, 66, 1);
 	    color:#030842;
 	    cursor:pointer;
-	    
 	    transition: background-color 1000ms, color 1000ms;
 	}
 
