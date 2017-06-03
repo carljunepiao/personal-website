@@ -1,9 +1,31 @@
 # personal-website
 CMSC 126 - Final Project Requirement: Create a personal website
-Access through: carlpiao.webeng.life
+Accessed through: carlpiao.webeng.life
 
-Inside my personal website:
-  1.  Home
-  2.  About
-  3.  Resume
-  4.  Contacts
+<h2>Main Page Screenshot</h2>
+<p>The first you will see in my site where I put some kind of an entrance</p>
+<img src="">
+
+<h2>Home Page Screenshot</h2>
+<p></p>
+<img src="">
+
+<h2>About Page Screenshot</h2>
+<p></p>
+<img src="">
+
+<h2>Resume Page Screenshot</h2>
+<p></p>
+<img src="">
+
+<h2>Contact Page Screenshot</h2>
+<p></p>
+<img src="">
+
+<h3>Technologies Used</h3>
+<ul>
+  <li>Javascipt, HTML5, CSS3</li>
+  <li>Node.js</li>
+  <li>Express</li>
+  <li>Postgres</li>
+</ul>
